@@ -11,7 +11,6 @@ body {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 .main {
     display: flex;
@@ -20,19 +19,121 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #1565c0;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #fff;
     min-height: 150px;
 }
 .content {
-    background-color: white;
+    background-color: #fff;
     min-height: 300px;
-    padding: 20px;
+    padding: 50px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: #003c8f;
     min-height: 150px;
+}
+
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu ul li{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.menu ul li:hover{
+    background-color: #003c8f;
+    border-radius: 3px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.header img{
+    max-width: 100%;
+    width: 1000px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.content h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+.content p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+.footer p{
+    color: #fff;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.table{
+    border-radius: 4px;
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+
+    
+}
+
+.table th{
+    font-size: 20px;
+}
+.table tr{
+    background-color: white;
+}
+.table td{
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.form label{
+    display: inline-block;
+    font-size: 25px;
+    width: 100%;
+}
+
+.form input{
+    display: inline;
+    width: 400px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.form button{
+    color: #000;
+    background-color: #e0f2f1;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-right: 5px;
 }
