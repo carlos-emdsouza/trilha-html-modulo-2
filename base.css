@@ -1,139 +1,149 @@
-html, body {
-    margin: 0;
+html,
+body {
+  margin: 0;
 }
 body {
-    background-color: #f1f1f1;
-    display: flex;
-    justify-content: center;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper {
-    width: 1200px;
-    display: flex;
-    margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  margin: 0 auto;
 }
 .main {
-    display: flex;
-    flex-flow: column;
-    width: 85%;
+  display: flex;
+  flex-flow: column;
+  width: 85%;
 }
 .menu {
-    width: 15%;
-    background-color: #1565c0;
-    padding: 10px 20px 0px;
+  width: 15%;
+  background-color: #1565c0;
+  padding: 10px 20px 0px;
 }
 .header {
-    background-color: #fff;
-    min-height: 150px;
+  background-color: #fff;
+  min-height: 150px;
 }
 .content {
-    background-color: #fff;
-    min-height: 300px;
-    padding: 50px;
+  background-color: #fff;
+  min-height: 300px;
+  padding: 50px;
 }
 .footer {
-    background-color: #003c8f;
-    min-height: 150px;
+  background-color: #003c8f;
+  min-height: 150px;
 }
 
-.menu ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-.menu ul li{
-    padding: 15px 0;
-    text-align: center;
+.menu ul li {
+  padding: 15px 0;
+  text-align: center;
 }
 
-.menu ul li:hover{
-    background-color: #003c8f;
-    border-radius: 3px;
+.menu ul li:hover {
+  background-color: #003c8f;
+  border-radius: 3px;
+  text-decoration-line: underline;
+  color: #fff;
 }
 
-.menu ul li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 20px;
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
 }
 
-.header img{
-    max-width: 100%;
-    width: 1000px;
-    height: 500px;
-    object-fit: cover;
+.header img {
+  max-width: 100%;
+  width: 1000px;
+  height: 500px;
+  object-fit: cover;
 }
 
-.content h1{
-    font-size: 40px;
-    text-align: center;
+.content h1 {
+  font-size: 40px;
+  text-align: center;
 }
 
-.content p{
-    font-size: 20px;
-    text-align: justify;
+.content p {
+  font-size: 20px;
+  text-align: justify;
 }
 
-.footer p{
-    color: #fff;
-    margin-left: 10px;
-    font-size: 18px;
+.footer p {
+  color: #fff;
+  margin-left: 10px;
+  font-size: 18px;
+  font-style: italic;
 }
 
-.footer a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 15px;
+.footer a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-style: normal;
 }
 
-.table{
-    border-radius: 4px;
-    width: 500px;
-    height: 500px;
-    background-color: #000;
-
-    
+.footer a:hover {
+  color: #92c5ff;
+}
+.table {
+  border-radius: 4px;
+  width: 500px;
+  height: 500px;
+  background-color: #000;
 }
 
-.table th{
-    font-size: 20px;
+.table th {
+  font-size: 20px;
 }
-.table tr{
-    background-color: white;
+.table tr {
+  background-color: #fff;
 }
-.table td{
-    font-size: 15px;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-
-h2{
-    font-size: 30px;
+.table td {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.form label{
-    display: inline-block;
-    font-size: 25px;
-    width: 100%;
+h2 {
+  font-size: 30px;
 }
 
-.form input{
-    display: inline;
-    width: 400px;
-    font-size: 18px;
-    margin-bottom: 15px;
+.form label {
+  display: inline-block;
+  font-size: 25px;
+  width: 100%;
 }
 
-.form button{
-    color: #000;
-    background-color: #e0f2f1;
-    font-size: 15px;
-    font-weight: bold;
-    padding: 10px;
-    border: 1px solid #000;
-    border-radius: 20px;
-    cursor: pointer;
-    margin-right: 5px;
+.form input {
+  display: inline;
+  width: 400px;
+  margin-bottom: 15px;
+}
+
+.form button {
+  color: #000;
+  background-color: #e0f2f1;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.form input,
+.form textarea {
+  font-size: 18px;
 }
